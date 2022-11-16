@@ -4,9 +4,9 @@ services:
 
   app:
 
-    image: hsounabm/angular-app:latest
+    image: anissaidi/angular-app:latest
     container_name: angular_container
     restart: on-failure
     ports:
-      - 4200:80
+      - 80:80
 
